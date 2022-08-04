@@ -86,7 +86,7 @@ jobs:
           if [ -n "${{ secrets.CHANNEL_ID }}" ] && [ -n "${{ secrets.BOT_TOKEN }}" ]; then
             OUTPUT="${{ github.workspace }}/TVBoxOSC/apk/"
             export appRelease=$(find $OUTPUT -name "*release*.apk")
-            export sourceCode="${{ github.workspace }}/TVBoxOSC/${{ env.commitS }}-source.zip"
+            export sourceCode="${{ github.workspace }}/TVBoxOSC/${{ env.commitS }}-source-tagaken99.zip"
             lastCommit=`git log --oneline |grep -o '[a-z0-9]\{40\}' |head -1`
             cd TVBoxOSC
             export LESSCHARSET=utf-8
