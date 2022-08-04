@@ -2,7 +2,7 @@ name: TG TVBox-2
 
 on:
   schedule:
-    - cron: 15,45 0-18 * * *
+    - cron: 15 0 * * * *
   push:
     branches:
       - master
