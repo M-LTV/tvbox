@@ -36,5 +36,5 @@ This repo relies on the following third-party projects:
 - [唐三 gitea/dxa/1](https://gitea.com/dxa/1)
 - [plutoPlayer](https://github.com/pluto-player/updates)
 # 短地址平台
-- [88d](http：//88d.cn/)
-- [77](https://77url.com/)
+- http：//88d.cn/
+- https://77url.com/
