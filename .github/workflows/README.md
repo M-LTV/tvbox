@@ -107,7 +107,7 @@ jobs:
       - name: Push to master
         if: ${{ env.commit }}
         run: |
-          rm -rf TVBoxOSC
+          rm -rf TVBoxOSC-2
           sed -i "/Updated Commit/c\\+ Updated Commit: ${{ env.commit }}" README.md
           sed -i '/url =/d' ./.git/config
           git config --local user.name "github-actions[bot]"
