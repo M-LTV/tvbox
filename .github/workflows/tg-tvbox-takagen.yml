@@ -2,7 +2,7 @@ name: TG TVBox-takagen
 
 on:
   schedule:
-    - cron: 15 1 * * *
+    - cron: 15 2 * * *
   push:
     branches:
       - master
