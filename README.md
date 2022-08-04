@@ -6,19 +6,19 @@
 
 
 # TVBoxOSC-2
-![Build](https://shields.io/github/workflow/status/lqinyli/TVBoxOSC-2/Test?logo=github&label=Build)
+![Build](https://shields.io/github/workflow/status/M-LTV/tvbox/Test?logo=github&label=Build)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/tvbox_stv)
-[![Download](https://img.shields.io/github/v/release/lqinyli/TVBoxOSC-2?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/lqinyli/TVBoxOS-2/releases)
-[![Total](https://shields.io/github/downloads/lqinyli/TVBoxOSC-2/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/lqinyli/TVBoxOS-2/releases)
+[![Download](https://img.shields.io/github/v/release/M-LTV/tvbox?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/lqinyli/TVBoxOS-2/releases)
+[![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/lqinyli/TVBoxOS-2/releases)
 - [TVBoxOSC-2](https://github.com/lqinyli/TVboxosc-2)
 
 + Updated Commit: 226ca9ca1c010d4452d0bf58559338d76024728d
 
 # TVBox-takagen99
-![Build](https://shields.io/github/workflow/status/TVBox-takagen99/Test?logo=github&label=Build)
+![Build](https://shields.io/github/workflow/status/M-LTV/tvbox/Test?logo=github&label=Build)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/tvbox_stv)
-[![Download](https://img.shields.io/github/v/release/TVBox-takagen99?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/TVBox-takagen99/releases)
-[![Total](https://shields.io/github/downloads/TVBox-takagen99/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/TVBox-takagen99/releases)
+[![Download](https://img.shields.io/github/v/release/M-LTV/tvbox?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/TVBox-takagen99/releases)
+[![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/TVBox-takagen99/releases)
 - [TVBox-takagen99](https://github.com/lqinyli/TVBox-takagen99)
 
 + Updated Commit: 226ca9ca1c010d4452d0bf58559338d76024728d
