@@ -13,7 +13,7 @@
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
 - [TVBoxOSC-2](https://github.com/lqinyli/TVBoxOS-2)
 
-+ Updated Commit: 226ca9ca1c010d4452d0bf58559338d76024728d
++ Updated Commit: e30987020db0fd5b86b63cfcaf620362cf7e23b4
 
 # TVBox-takagen99
 ![Build](https://shields.io/github/workflow/status/M-LTV/tvbox/Test?logo=github&label=Build)
@@ -22,7 +22,7 @@
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
 - [TVBox-takagen99](https://github.com/lqinyli/TVBox-takagen99)
 
-+ Updated Commit: 226ca9ca1c010d4452d0bf58559338d76024728d
++ Updated Commit: acfb721071fae147dd038d653b728f87ff5f1ebf
 
 
 ## Credits
