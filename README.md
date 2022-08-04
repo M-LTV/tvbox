@@ -31,7 +31,7 @@ This repo relies on the following third-party projects:
 - [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
 - [FongMi/TV](https://github.com/FongMi/TV)
 - [takagen99/TVBoxOSC](https://github.com/takagen99/TVBoxOSC)
-
+- [M-LTV/tvbox](https://github.com/M-LTV/tvbox)
 
 - [唐三 gitea/dxa/1](https://gitea.com/dxa/1)
 - [plutoPlayer](https://github.com/pluto-player/updates)
