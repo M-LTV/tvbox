@@ -22,7 +22,7 @@
 
 + Updated Commit: acfb721071fae147dd038d653b728f87ff5f1ebf
 
-# TVBox-FongMi
+# BearTV
 - [TVBox-FongMi](https://github.com/FongMi/TV)
 
 + Updated Commit: 04b30d5adfcf2f72c5c64b0745b42d2cd96ae303
