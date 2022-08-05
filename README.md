@@ -4,7 +4,7 @@
 [![Download](https://img.shields.io/github/v/release/o0HalfLife0o/TVBoxOSC?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/o0HalfLife0o/TVBoxOSC/releases/latest) 
 [![Total](https://shields.io/github/downloads/o0HalfLife0o/TVBoxOSC/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/o0HalfLife0o/TVBoxOSC/releases)
 - [o0HalfLife0o/TVBoxOSC](https://github.com/o0HalfLife0o/TVBoxOSC)
-
+- [o0HalfLife0o仓库](https://github.com/o0HalfLife0o?tab=repositories)
  # TVBOX
 ![Build](https://shields.io/github/workflow/status/M-LTV/tvbox/Test?logo=github&label=Build)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/tvbox_stv)
@@ -33,12 +33,13 @@
 This repo relies on the following third-party projects:
 - [CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)
 - [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
-- [FongMi/TV](https://github.com/FongMi/TV)
+- [FongMi/TV▶BearTV&AlphaTV](https://github.com/FongMi/TV)
 - [takagen99/TVBoxOSC](https://github.com/takagen99/TVBoxOSC)
 - [M-LTV/tvbox](https://github.com/M-LTV/tvbox)
 
 - [唐三 gitea/dxa/1](https://gitea.com/dxa/1)
-- [plutoPlayer](https://github.com/pluto-player/updates)
+- [plutoPlayer下载](https://github.com/pluto-player/updates)
+- [晴园仓库](https://github.com/ygyzy?tab=repositories)
 # 短地址平台
 - https://short.io/
 - http://88d.cn/
