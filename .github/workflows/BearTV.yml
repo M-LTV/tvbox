@@ -1,0 +1,98 @@
+name: Auto Build
+
+on:
+  schedule:
+    - cron: 5 3 * * *
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Check New Commit
+        run: |
+          upstreamCode=https://github.com/lqinyli/FONGMI-TV
+          echo "upstreamCode=$upstreamCode" >> $GITHUB_ENV
+          commit=$(curl -sL $upstreamCode/commits/main |grep -o '/lqinyli/FONGMI-TV/commit/[a-z0-9]\+' |head -1 | cut -d\/ -f5)
+          if ! git log --oneline |grep -q "$commit"; then
+            echo "commit=$commit" >> $GITHUB_ENV
+            echo "commitS=${commit:0:7}" >> $GITHUB_ENV
+          fi
+      - name: Checkout Source Code and Zip
+        if: ${{ env.commit }}
+        run: |
+          git clone ${{ env.upstreamCode }} BearTV
+          cd BearTV
+          git checkout ${{ env.commit }}
+          echo "tag=$(git log --date=format:'%Y%m%d-%H%M' --pretty=format:%cd ${{ env.commitS }} -1)" >> $GITHUB_ENV
+          zip -q -x ".git/*" -r ${{ env.commitS }}-source.zip .
+      - name: Release Apk Sign
+        if: ${{ env.commit }}
+        working-directory: BearTV
+        run: |
+          signingConfigs='ICAgIHNpZ25pbmdDb25maWdzIHtcCiAgICAgICAgaWYgKHByb2plY3QuaGFzUHJvcGVydHkoIlJFTEVBU0VfU1RPUkVfRklMRSIpKSB7XAogICAgICAgICAgICBteUNvbmZpZyB7XAogICAgICAgICAgICAgICAgc3RvcmVGaWxlIGZpbGUoUkVMRUFTRV9TVE9SRV9GSUxFKVwKICAgICAgICAgICAgICAgIHN0b3JlUGFzc3dvcmQgUkVMRUFTRV9TVE9SRV9QQVNTV09SRFwKICAgICAgICAgICAgICAgIGtleUFsaWFzIFJFTEVBU0VfS0VZX0FMSUFTXAogICAgICAgICAgICAgICAga2V5UGFzc3dvcmQgUkVMRUFTRV9LRVlfUEFTU1dPUkRcCiAgICAgICAgICAgICAgICB2MVNpZ25pbmdFbmFibGVkIHRydWVcCiAgICAgICAgICAgICAgICB2MlNpZ25pbmdFbmFibGVkIHRydWVcCiAgICAgICAgICAgICAgICBlbmFibGVWM1NpZ25pbmcgPSB0cnVlXAogICAgICAgICAgICAgICAgZW5hYmxlVjRTaWduaW5nID0gdHJ1ZVwKICAgICAgICAgICAgfVwKICAgICAgICB9XAogICAgfVwKXA=='
+          signingConfig='ICAgICAgICAgICAgaWYgKHByb2plY3QuaGFzUHJvcGVydHkoIlJFTEVBU0VfU1RPUkVfRklMRSIpKSB7XAogICAgICAgICAgICAgICAgc2lnbmluZ0NvbmZpZyBzaWduaW5nQ29uZmlncy5teUNvbmZpZ1wKICAgICAgICAgICAgfVwK'
+          signingConfigs="$(echo "$signingConfigs" |base64 -d )"
+          signingConfig="$(echo "$signingConfig" |base64 -d )"
+          sed -i -e "/defaultConfig {/i\\$signingConfigs " -e "/defaultConfig {/i\\$lintOptions " -e "/debug {/a\\$signingConfig " -e "/release {/a\\$signingConfig " app/build.gradle
+          if ! grep -q 'lintOptions' app/build.gradle; then
+            lintOptions='ICAgIGxpbnRPcHRpb25zIHtcCiAgICAgICAgY2hlY2tSZWxlYXNlQnVpbGRzIGZhbHNlXAogICAgICAgIGFib3J0T25FcnJvciBmYWxzZVwKICAgIH1cClw='
+            lintOptions="$(echo "$lintOptions" |base64 -d )"
+            sed -i "/defaultConfig {/i\\$lintOptions " app/build.gradle
+          fi
+          cp -f ${{ github.workspace }}/.github/workflows/BearTV.jks app/BearTV.jks
+          sed -i '$a\RELEASE_STORE_FILE=./TVBoxOSC.jks'       ./gradle.properties
+          sed -i '$a\RELEASE_KEY_ALIAS=${{ secrets.ALIAS }}'            ./gradle.properties
+          sed -i '$a\RELEASE_STORE_PASSWORD=${{ secrets.PW }}'       ./gradle.properties
+          sed -i '$a\RELEASE_KEY_PASSWORD=${{ secrets.PW }}'         ./gradle.properties
+      - name: Build Release With Gradle
+        if: ${{ env.commit }}
+        working-directory: BearTV
+        run: |
+          chmod +x gradlew
+          ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
+            
+      - name: Prepare App
+        if: ${{ env.commit }}
+        working-directory: BearTV
+        run: |
+          rm -rf apk/
+          mkdir -p apk/
+          for file in `find ~ -name "*release*.apk" -print`; do
+            mv "$file" apk/BearTV_Release_${{ env.tag }}.apk
+          done
+          
+      - name: Upload App To Artifact
+        uses: actions/upload-artifact@v3
+        if: ${{ env.commit }}
+        with:
+          name: BearTV_Release
+          path: BearTV/apk/*
+      - name: Release and Upload Assets
+        uses: softprops/action-gh-release@v1
+        if: ${{ env.commit }}
+        with:
+          name: ${{ env.tag }}
+          tag_name: ${{ env.tag }}
+          body: ${{ env.commit }}
+          files: |
+            BearTV/apk/*
+            BearTV/${{ env.commitS }}-source.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push to master
+        if: ${{ env.commit }}
+        run: |
+          rm -rf BearTV
+          sed -i "/Updated Commit/c\\+ Updated Commit: ${{ env.commit }}" README.md
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add --all
