@@ -40,6 +40,7 @@ This repo relies on the following third-party projects:
 - [唐三 gitea/dxa/1](https://gitea.com/dxa/1)
 - [plutoPlayer下载](https://github.com/pluto-player/updates)
 - [晴园仓库](https://github.com/ygyzy?tab=repositories)
+- [各类TVbox-晴园收藏](https://ygyzy.github.io/tvbox/)
 # 短地址平台
 - https://short.io/
 - http://88d.cn/
