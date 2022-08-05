@@ -37,17 +37,19 @@ This repo relies on the following third-party projects:
 - [FongMi/TV▶BearTV&AlphaTV](https://github.com/FongMi/TV)
 - [takagen99/TVBoxOSC](https://github.com/takagen99/TVBoxOSC)
 - [M-LTV/tvbox](https://github.com/M-LTV/tvbox)
-
 - [唐三 gitea/dxa/1](https://gitea.com/dxa/1)
 - [plutoPlayer下载](https://github.com/pluto-player/updates)
 - [晴园仓库](https://github.com/ygyzy?tab=repositories)
 - [各类TVbox-晴园收藏](https://ygyzy.github.io/tvbox/)
+- []()
+- []()
+- []()
 ## 短地址平台
-- https://short.io/
-- [88d](http://88d.cn/)
-- https://77url.com/
-- https://suowo.cn/
-- https://6du.in/
-- https://www.urlc.cn/
-- https://59z.cn/
-- https://suowo.cn/
+- [https://short.io](https://short.io/)
+- [http://88d.cn](http://88d.cn/)
+- [https://77url.com](https://77url.com/)
+- [https://suowo.cn](https://suowo.cn/)
+- [https://6du.in](https://6du.in/)
+- [https://www.urlc.cn](https://www.urlc.cn/)
+- [https://59z.cn](https://59z.cn/)
+- [https://suowo.cn](https://suowo.cn/)
