@@ -2,7 +2,7 @@ name: TG TVBox-FongMi
 
 on:
   schedule:
-    - cron: 15 1 * * *
+    - cron: 15 3 * * *
   push:
     branches:
       - master
@@ -107,7 +107,7 @@ jobs:
       - name: Push to master
         if: ${{ env.commit }}
         run: |
-          rm -rf TVBoxOSC-2
+          rm -rf TVBox-FongMi
           sed -i "/Updated Commit/c\\+ Updated Commit: ${{ env.commit }}" README.md
           sed -i '/url =/d' ./.git/config
           git config --local user.name "github-actions[bot]"
