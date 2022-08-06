@@ -1,4 +1,4 @@
-# # # # # TVBOXOSC开源项目APP及相关配置接口等等 # # # #
+#           🎊🎊TVBOXOSC开源项目APP及相关配置接口等等🎊🎊
 # TVBox-o0HalfLife0o 
 ![Build](https://shields.io/github/workflow/status/o0HalfLife0o/TVBoxOSC/Test?logo=github&label=Build)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/TVBoxOSC)
