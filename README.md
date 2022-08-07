@@ -12,7 +12,8 @@
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/tvbox_stv)
 [![Download](https://img.shields.io/github/v/release/M-LTV/tvbox?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/M-LTV/tvbox/releases)
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
-
+- [Action](https://github.com/M-LTV/tvbox/actions)
+- [X浏览器](https://www.xbext.com/)  [X](https://www.xbext.com/icons/apple-touch-icon-57x57.png)
 
 # TVBoxOSC-2
 - [TVBoxOSC-2](https://github.com/lqinyli/TVBoxOS-2)
