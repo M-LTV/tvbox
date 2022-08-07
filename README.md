@@ -15,8 +15,7 @@
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
 - [Action](https://github.com/M-LTV/tvbox/actions)
 ***
-[![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png)](https://www.xbext.com/)[X浏览器](https://www.xbext.com/)  
-* 测试 *
+[![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png)](https://www.xbext.com/)[X浏览器https://www.xbext.com/](https://www.xbext.com/)  
 ***
 
 ***
