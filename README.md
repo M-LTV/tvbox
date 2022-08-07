@@ -13,7 +13,7 @@
 [![Download](https://img.shields.io/github/v/release/M-LTV/tvbox?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/M-LTV/tvbox/releases)
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
 - [Action](https://github.com/M-LTV/tvbox/actions)
-- [![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png)](https://www.xbext.com/)  
+- [![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png)](https://www.xbext.com/)[X浏览器](https://www.xbext.com/)  
 ***
 - [X](https://www.xbext.com/icons/apple-touch-icon-57x57.png)
 
