@@ -43,7 +43,7 @@ jobs:
           cd ${{ env.repoName }}
           git checkout ${{ env.commit }}
           #zip
-          zip -q -x ".git/*" -r ${{ env.commitS }}-source.zip .
+          zip -q -x ".git/*" -r ${{ env.commitS }}-source-AlphaTV.zip .
           #tag
           tag="$(git log --date=format:'%Y%m%d-%H%M' --pretty=format:%cd ${{ env.commitS }} -1)"
           echo "tag=$tag" >> $GITHUB_ENV
@@ -69,7 +69,7 @@ jobs:
         if: ${{ env.commit }}
         with:
           name: ${{ env.tag }}-source
-          path: ${{ env.repoName }}/*-source.zip
+          path: ${{ env.repoName }}/*-source-AlphaTV.zip
 
   build:
     needs: prepare
@@ -89,7 +89,7 @@ jobs:
       - uses: actions/download-artifact@v2
       - name: Unzip Code
         run: |
-          unzip -d source/ *-source/*-source.zip
+          unzip -d source/ *-source/*-source-AlphaTV.zip
           rm -rf *-source/
       - name: Release Apk Sign
         working-directory: source/
