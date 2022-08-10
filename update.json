@@ -1,0 +1,8 @@
+{   
+        "appName": "STV", 
+        "versionCode": "1.6", 
+        "versionName": "1.0", 
+        "apkUrl": "https://github.com/M-LTV/tvbox/releases/download/20220810-2356/TKG_takagen_release_20220810-2356.apk", 
+        "changeLog":"1.修复xxx Bug;\n2.更新UI界面.", 
+        "updateTips": "更新提示" 
+    }
