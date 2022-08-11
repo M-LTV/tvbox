@@ -22,8 +22,8 @@
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
 - [pluto下载](https://github.com/pluto-player/updates)
 - [M-LTV/tvbox](https://github.com/M-LTV/tvbox)
-- [Action任务](https://github.com/M-LTV/tvbox/actions)
-[![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png "X浏览器")](https://www.xbext.com/)[X浏览器https://www.xbext.com/](https://www.xbext.com/)  
+[Action任务](https://github.com/M-LTV/tvbox/actions)
+- [![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png "X浏览器")](https://www.xbext.com/)[X浏览器https://www.xbext.com/](https://www.xbext.com/)  
 
 
 # TVBoxOSC-2
