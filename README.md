@@ -1,5 +1,5 @@
 # 🎊🎊TVBOXOSC开源项目APP及相关配置接口等等🎊🎊
-# TVBox-o0HalfLife0o 
+## TVBox-o0HalfLife0o 
 ![Build](https://shields.io/github/workflow/status/o0HalfLife0o/TVBoxOSC/Test?logo=github&label=Build)
 [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/TVBoxOSC)
 [![Download](https://img.shields.io/github/v/release/o0HalfLife0o/TVBoxOSC?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/o0HalfLife0o/TVBoxOSC/releases/latest) 
@@ -7,7 +7,7 @@
 - [o0HalfLife0o/TVBoxOSC](https://github.com/o0HalfLife0o/TVBoxOSC)
 - [o0HalfLife0o仓库](https://github.com/o0HalfLife0o?tab=repositories)
 
-# TVBOX
+## TVBOX
 - [TVBox官仓](https://github.com/CatVodTVOfficial/)
 - [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
 - [FongMi/TV ☞BearTV&AlphaTV](https://github.com/FongMi/TV)
@@ -22,7 +22,7 @@
 [![Total](https://shields.io/github/downloads/M-LTV/tvbox/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/M-LTV/tvbox/releases)
 - [pluto下载](https://github.com/pluto-player/updates)
 - [M-LTV/tvbox](https://github.com/M-LTV/tvbox)
-[Action任务](https://github.com/M-LTV/tvbox/actions)
+   [Action任务](https://github.com/M-LTV/tvbox/actions)
 - [![X浏览器](https://www.xbext.com/icons/apple-touch-icon-57x57.png "X浏览器")](https://www.xbext.com/)[X浏览器https://www.xbext.com/](https://www.xbext.com/)  
 
 
@@ -44,15 +44,16 @@
 
 
 ## 仓库平台&配置
+### 仓库平台
 - [GITHUB](https://github.com/)
-***
+### 配置&仓库
 - [唐三 gitea/dxa/1](https://gitea.com/dxa/1)
 - [晴园仓库](https://github.com/ygyzy?tab=repositories)
 - [各类TVbox-晴园收藏](https://ygyzy.github.io/tvbox/)
 - []()
 - []()
 - []()
-# 短地址平台
+## 短地址平台
 - [https://short.io](https://short.io/)
 - [http://88d.cn](http://88d.cn/)
 - [https://77url.com](https://77url.com/)
