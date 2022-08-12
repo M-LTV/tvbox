@@ -47,6 +47,8 @@
 ### 仓库&储存平台
 - [Github](https://github.com/)
 - [Gitea](https://gitea.com/)
+- [Gitee](https://gitee.com/)
+- [Jihulab极狐](https://jihulab.com/)
 - [Coding](https://coding.net/)
 - [云储](https://yunchu.cxoip.com/)
 - [Agit](https://agit.ai)
