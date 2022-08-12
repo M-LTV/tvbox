@@ -63,24 +63,18 @@
 - []()
 
 ### Github RAW加速服务&例子
-https://statically.io/
-https://www.7ed.net/#/raw-cdn  
-https://raw.githubusercontents.com/   用户/仓库/main(分支)/子目录/txt.txt
-
-https://ghproxy.com/  代理  
-https://ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/dc.json
-
-https://raw.fastgit.org/
-
-https://raw-gh.gcdn.mirr.one/
-
-https://cdn.staticaly.com/gh/liu673cn/box/main/dc.json  
-
-https://cdn.jsdelivr.net/gh/liu673cn/box@main/dc.json
-
-https://purge.jsdelivr.net/gh/liu673cn/box@main/m.json
-
+- https://statically.io/
+- https://www.7ed.net/#/raw-cdn  
+- https://raw.githubusercontents.com/   用户/仓库/main(分支)/子目录/txt.txt
+- https://ghproxy.com/  代理  
+- https://ghproxy.com/https://raw.githubusercontent.com/liu673cn/box/main/dc.json
+- https://raw.fastgit.org/
+- https://raw-gh.gcdn.mirr.one/
+- https://cdn.staticaly.com/gh/liu673cn/box/main/dc.json  
+- https://cdn.jsdelivr.net/gh/liu673cn/box@main/dc.json
+- https://purge.jsdelivr.net/gh/liu673cn/box@main/m.json
 ------
+
 ## 短地址平台
 - [https://short.io](https://short.io/)
 - [http://88d.cn](http://88d.cn/)
