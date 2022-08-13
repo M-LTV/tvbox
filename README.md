@@ -40,8 +40,11 @@
 - [TVBox-FongMi](https://github.com/lqinyli/FONGMI-TV)
 
 + Updated Commit: 04b30d5adfcf2f72c5c64b0745b42d2cd96ae303
-#
 
+# SJTV
+- [M-LTV/TVBox-suanjin](https://github.com/M-LTV/TVBox-suanjin)
+
++ Updated Commit: a0bda9d618196a3fa9f11ebefb97e557f2fc12ee
 
 ## 仓库平台&配置
 ### 仓库&储存平台
