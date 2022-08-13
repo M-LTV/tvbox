@@ -10,6 +10,7 @@
 ## TVBOX热门&仓库&任务
 - [TVBox官仓](https://github.com/CatVodTVOfficial/)
 - [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
+- [suanjin/TVBoxOS](https://github.com/suanjin/TVBoxOS)
 - [FongMi/TV ☞BearTV&AlphaTV](https://github.com/FongMi/TV)
 - [takagen99/TVBoxOSC](https://github.com/takagen99/TVBoxOSC)
 - [clanTV*来自takagen](https://github.com/clanTV/clanTV)
