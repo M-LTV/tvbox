@@ -15,8 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: M-LTV
-            repoName: TVBox-suanjin
+          - userName: q215613905
+            repoName: TVBoxOS
             branchName: main
  
     steps:
