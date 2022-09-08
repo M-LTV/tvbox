@@ -2,7 +2,7 @@ name: tvbox
 
 on:
   schedule:
-    - cron: 20 0 * * *
+    - cron: 20,50 0-14 * * *
   push:
     branches:
       - master
