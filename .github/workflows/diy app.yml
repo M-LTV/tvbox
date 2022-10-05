@@ -40,7 +40,7 @@ jobs:
           - userName: kensonmiao
             repoName: CatVodTVOSC
             branchName: main
-            appName: 猫学生
+            appName: "猫学生"
          
     steps:
       - name: Checkout
