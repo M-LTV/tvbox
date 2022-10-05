@@ -8,9 +8,10 @@
 - [o0HalfLife0o仓库](https://github.com/o0HalfLife0o?tab=repositories)
 ## 
 ## TVBOX热门&仓库&任务
+- [Kvymin](https://github.com/Kvymin?tab=repositories)
 - [TVBox官仓](https://github.com/CatVodTVOfficial/)
 - [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
-- [suanjin/TVBoxOS](https://github.com/suanjin/TVBoxOS)
+- [suanjin/TVBoxOS](https://github.com/suanjin/box)
 - [FongMi/TV ☞BearTV&AlphaTV](https://github.com/FongMi/TV)
 - [takagen99/TVBoxOSC](https://github.com/takagen99/TVBoxOSC)
 - [clanTV*来自takagen](https://github.com/clanTV/clanTV)
@@ -61,6 +62,7 @@
 - [Jihulab极狐](https://jihulab.com/)
 - [Coding](https://coding.net/)
 - [云储](https://yunchu.cxoip.com/)
+- [csdn代码仓](https://gitcode.net/)
 - [Agit](https://agit.ai)
 - [Cloudflare_智能化云服务平台_免费CDN安全防护](https://www.cloudflare.com/zh-cn/)
 ### 
@@ -94,5 +96,21 @@
 - [https://www.urlc.cn](https://www.urlc.cn/)
 - [https://59z.cn](https://59z.cn/)
 - [https://suowo.cn](https://suowo.cn/)
-- [http://c1n.cn](http://c1n.cn/)
+- [https://0a.fit/](https://0a.fit)
+- [https://www.urlc.cn/](https://www.urlc.cn/)
 ## 
+
+# TVBoxOSC
+![Build](https://shields.io/github/workflow/status/o0HalfLife0o/TVBoxOSC/Test?logo=github&label=Build)
+[![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/TVBoxOSC)
+[![Download](https://img.shields.io/github/v/release/o0HalfLife0o/TVBoxOSC?color=orange&logoColor=orange&label=Download&logo=DocuSign)](https://github.com/o0HalfLife0o/TVBoxOSC/releases/latest) 
+[![Total](https://shields.io/github/downloads/o0HalfLife0o/TVBoxOSC/total?logo=Bookmeter&label=Counts&logoColor=yellow&color=yellow)](https://github.com/o0HalfLife0o/TVBoxOSC/releases)
+## Credits
+This repo relies on the following third-party projects:
+- [CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)
+- [clanTV*来自takagen](https://github.com/clanTV/clanTV)
+- [q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS) (Updated: 9b0ff83d611febf37a86080f18fb6c3c0cea930d)
+- [takagen99/Box](https://github.com/takagen99/Box) (Updated: 15af696928950c35690e1084a78db5567bbdae7d)
+- [lqinyli/TVBoxOSC-2](https://github.com/lqinyli/TVBoxOS-2) (Updated: e30987020db0fd5b86b63cfcaf620362cf7e23b4)
+- [kensonmiao/CatVodTVOSC](https://github.com/kensonmiao/CatVodTVOSC) (Updated: 09be7d64f6e85051190c61d59aa3eb744ad699e0)
+- [TVBox-FongMi](https://github.com/lqinyli/FONGMI-TV) (Updated: 04b30d5adfcf2f72c5c64b0745b42d2cd96ae303)
