@@ -28,7 +28,7 @@ jobs:
           - userName: lqinyli
             repoName: TVBoxOS-2
             branchName: main
-            appName:STV
+            appName: STV
     steps:
       - name: Checkout
         uses: actions/checkout@v3
