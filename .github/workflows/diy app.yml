@@ -29,6 +29,19 @@ jobs:
             repoName: TVBoxOS-2
             branchName: main
             appName: STV
+         - userName: takagen99
+            repoName: Box
+            branchName: main
+            appName: TKG
+         - userName: q215613905
+            repoName: TVBoxOS
+            branchName: main
+            appName: QTV
+         - userName: kensonmiao
+            repoName: CatVodTVOSC
+            branchName: main
+            appName: 猫学生
+         
     steps:
       - name: Checkout
         uses: actions/checkout@v3
