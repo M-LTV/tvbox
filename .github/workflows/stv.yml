@@ -1,8 +1,8 @@
-name: Test
+name: stv
 
 on:
   schedule:
-    - cron: 15,45 0-18 * * *
+    - cron: 15 18 * * *
   push:
     branches:
       - master
@@ -15,8 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: M-LTV
-            repoName: TVBox-suanjinTVBox-suanjin
+          - userName: lqinyli
+            repoName: TVBoxOSC-2
             branchName: main
  
     steps:
@@ -26,9 +26,9 @@ jobs:
           fetch-depth: 0
       - name: Check New Commit
         run: |
-          upStream=https://github.com/M-LTV/TVBox-suanjin
+          upStream=https://github.com/${{ matrix.userName }}/${{ matrix.repoName }}
           echo "upStream=$upStream" >> $GITHUB_ENV
-          commit=$(curl -sL $upStream/commits/main |grep -o "/M-LTV/TVBox-suanjin/commit/[a-z0-9]\+" |head -1 | cut -d\/ -f5)
+          commit=$(curl -sL $upStream/commits/main |grep -o "/${{ matrix.userName }}/${{ matrix.repoName }}/commit/[a-z0-9]\+" |head -1 | cut -d\/ -f5)
           #if ! git log --oneline |grep -q "$commit"; then
           if ! grep -q "$commit" README.md; then
             echo "commit=$commit" >> $GITHUB_ENV
