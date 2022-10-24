@@ -20,7 +20,7 @@ jobs:
       - name: DIY
         run: |
           chmod +x diy-J.sh
-          bash https://m-ltv.github.io/TVBoxDIY/diy-J.sh    
+          - https://m-ltv.github.io/TVBoxDIY/diy-J.sh    
       - name: Build With Gradle
         run: |
           num=$(find ${{ github.workspace }} -name gradlew  | awk -F"/" '{print NF-1}')
