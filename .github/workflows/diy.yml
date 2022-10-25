@@ -27,7 +27,7 @@ jobs:
         include:
           - userName: lqinyli
             repoName: TVBoxOS-2
-            branchName: main
+            branchName: diy
             appName: STV
           - userName: takagen99
             repoName: Box
