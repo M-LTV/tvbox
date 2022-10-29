@@ -113,10 +113,10 @@ jobs:
             sed -i "/defaultConfig {/i\\$lintOptions " app/build.gradle
           fi
           cp -f ${{ github.workspace }}/.github/workflows/TVBoxOSC.jks app/TVBoxOSC.jks
-          sed -i '$a\RELEASE_STORE_FILE=./TVBoxOSC.jks'     ./gradle.properties
-          sed -i '$a\RELEASE_KEY_ALIAS=TVBoxOSC'            ./gradle.properties
-          sed -i '$a\RELEASE_STORE_PASSWORD=TVBoxOSC'       ./gradle.properties
-          sed -i '$a\RELEASE_KEY_PASSWORD=TVBoxOSC'         ./gradle.properties
+          sed -i '$a\RELEASE_STORE_FILE=./TVBoxOSC.jks'       ./gradle.properties
+          sed -i '$a\RELEASE_KEY_ALIAS=${{ secrets.ALIAS }}'            ./gradle.properties
+          sed -i '$a\RELEASE_STORE_PASSWORD=${{ secrets.PW }}'       ./gradle.properties
+          sed -i '$a\RELEASE_KEY_PASSWORD=${{ secrets.PW }}'         ./gradle.properties
       - name: Build With Gradle
         continue-on-error: true
         working-directory: source/
